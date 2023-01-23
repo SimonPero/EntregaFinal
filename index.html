@@ -13,20 +13,31 @@
 </head>
 
 <body>
-  <header>
-    <nav class="menu">
-      <ul class="menus">
-        <li><a href="index.html">
-            <h1>Comics</h1>
-          </a></li>
-        <li><a href="pages/bookmarks.html">
-            <h2>Bookmarks</h2>
-          </a></li>
-        <li><a href="pages/sing.html">
-            <h2>Inicar Sesion</h2>
-          </a></li>
-      </ul>
-      </ul>
+  <header class="fondo-color">
+    <nav class="navbar navbar-expand-lg menu">
+      <div class=" container-fluid contenedor-header">
+        <div class=" logo-granlector">
+          <a class="navbar-brand " href="index.html">
+            <img src="img/Gran-Lector.png" alt="Logo de Gran Lector">
+          </a>
+        </div>
+        <ul class=" menus navbar-nav flex-grow-1 pe-3 flew-wrap">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="pages/bookmarks.html">
+              <img src="img/icon-manwhas1.png" alt="icon de manwhas" width="50" height="50"
+                class="d-inline-block align-text-top">
+              Bookmarks
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/sing.html" aria-current="page">
+              <img src="img/icon-regist1.png" alt="icon de registrarse" width="50" height="50"
+                class="d-inline-block align-text-top">
+              Registrarse
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
 
@@ -268,6 +279,30 @@
     </ul>
   </section>
 
+  <footer>
+    <nav class="navbar fondo-color sticky-bottom">
+        <div class="container-fluid contenedor-footer placeholder-sm">
+            <h4 class="derechos">Todos los derechos reservados</h4>
+            <ul class="navbar-nav flex-grow-1 pe-3 flew-wrap logos-sociales">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" Target=_blank href="https://www.instagram.com/">
+                        <img src="img/logo-insta.png" alt="logo de instagram">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" Target=_blank href="https://es-la.facebook.com/">
+                        <img src="img/logo-face.png" alt="logo de facebook">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" Target=_blank href="https://discord.com/">
+                        <img src="img/discord.png" alt="logo de discord">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</footer>
 
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   <script src="./js/script.js"></script>

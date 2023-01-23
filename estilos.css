@@ -1,3 +1,9 @@
+/*reset*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; }
+
 .tamano {
     height: 136.66px;
     width: 136.66px;
@@ -6,6 +12,9 @@
 
 body {
     background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .fondo-de-Sing {
@@ -245,3 +254,36 @@ a:hover {
     color: #333;
     transition-duration: 1s;
 }
+.logo-granlector img{
+    max-width: 4.5rem;
+    max-height: 4.5rem;
+}
+.fondo-color {
+    background-color: #470938; }
+
+    /*footer*/
+    footer nav {
+      width: 100%;
+      background-color: #470938; }
+      footer nav .contenedor-footer {
+        display: flex;
+        justify-content: space-around; }
+        footer nav .contenedor-footer .derechos {
+          color: #5C94BD;
+          font-size: larger;
+          max-width: 80%; }
+        footer nav .contenedor-footer .logos-sociales {
+          width: 30%;
+          display: flex;
+          flex-direction: row;
+          justify-content: end;
+          gap: 1rem; }
+          footer nav .contenedor-footer .logos-sociales img {
+            width: 4.54vh;
+            height: 4.54vh;
+            border-radius: 0.3rem; }
+
+           
+        footer{
+            margin-top: auto;
+        }
