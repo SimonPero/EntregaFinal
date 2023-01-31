@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loginForm.addEventListener("submit", e => {
         e.preventDefault();
 
-        //aca vendria algo sobre como verificar si existe nombre y contrase en un archivo json nuevo y faltaria agregar una forma de  que en CreateAccount Postee en el nuevo archivo json nombre email password del usuario. Pero estoy quemado de la cabeza por todo el proceso de crear el log in y creat account 
+        //aca vendria algo sobre como verificar si existe nombre y contrase en un archivo json nuevo y faltaria agregar una forma de  que en CreateAccount Postee en el nuevo archivo json nombre email password del usuario. Despues en login verificar y etc. 
     });
 
     document.querySelectorAll(".form__input").forEach(inputElement => {
